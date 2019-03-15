@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnLightGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:text="@string/change_light_gray_colour" />
+
+        <Button
+            android:id="@+id/btnRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLightGray"
+            android:layout_alignParentStart="true"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:text="@string/change_red_colour" />
+
+        <Button
+            android:id="@+id/btnGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnRed"
+            android:layout_alignParentStart="true"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:text="@string/change_green_colour" />
+
+        <Button
+            android:id="@+id/btnBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnGreen"
+            android:layout_alignParentStart="true"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:text="@string/change_blue_colour" />
+
+        <Button
+            android:id="@+id/btnYellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnBlue"
+            android:layout_alignParentStart="true"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:text="@string/change_yellow_colour" />
+
+        <Button
+            android:id="@+id/btnCyan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnYellow"
+            android:layout_alignParentStart="true"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:text="@string/change_cyan_colour" />
+
+        <Button
+            android:id="@+id/btnMagenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnCyan"
+            android:layout_alignParentStart="true"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:text="@string/change_magenta_colour" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnCyan"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="47dp"
+            android:text="@string/close" />
+    </RelativeLayout>
+</ScrollView>
